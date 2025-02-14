@@ -1,0 +1,33 @@
+import React from "react";
+
+const Home = () => {
+  return (
+    <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center p-4">
+      <header className="w-full max-w-4xl text-center py-6">
+        <h1 className="text-4xl font-bold">Living Hope Project</h1>
+        <p className="text-lg mt-2">Bringing hope to the streets of London through outreach and service.</p>
+      </header>
+      
+      <section className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md my-4">
+        <h2 className="text-2xl font-semibold">Our Mission</h2>
+        <p className="mt-2 text-gray-700">We aim to support homeless individuals, advocate for prison reform, and provide assistance to orphanages, sharing the love of Christ.</p>
+      </section>
+      
+      <section className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md my-4">
+        <h2 className="text-2xl font-semibold">Get Involved</h2>
+        <ul className="mt-2 list-disc list-inside text-gray-700">
+          <li>Volunteer for our outreach programs</li>
+          <li>Donate to support our mission</li>
+          <li>Spread awareness and advocate for those in need</li>
+        </ul>
+      </section>
+
+      <section className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md my-4 text-center">
+        <h2 className="text-2xl font-semibold">Contact Us</h2>
+        <p className="mt-2 text-gray-700">Email: contact@livinghope.org</p>
+      </section>
+    </div>
+  );
+};
+
+export default Home;
